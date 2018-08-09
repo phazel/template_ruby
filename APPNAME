@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 
-docker run -it [DOCKER_ACCOUNT]/[APPNAME]:latest
+docker run -it --rm [DOCKER_ACCOUNT]/[APPNAME]:latest

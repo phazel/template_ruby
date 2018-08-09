@@ -7,4 +7,4 @@ COPY app/ /app
 RUN gem install bundler --version 1.16.2
 RUN bundle install --without development test
 
-CMD ./run.sh
+ENTRYPOINT ["./run.sh"]

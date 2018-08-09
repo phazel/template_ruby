@@ -11,4 +11,4 @@ docker image build \
 		--tag ${IMAGE_NAME} .
 
 #run container
-docker run -it ${IMAGE_NAME}
+docker run -it --rm ${IMAGE_NAME}
