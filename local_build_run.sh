@@ -3,7 +3,7 @@ set -e
 
 cd `dirname $0`
 
-export IMAGE_NAME=[DOCKER_ACCOUNT]/[APPNAME]_local
+export IMAGE_NAME=[APPNAME]_local
 
 #build image
 docker image build \
