@@ -11,13 +11,15 @@ That's it!
 
 #### Locally
 
-- You need Ruby version `2.5.1`. Use the version manager of your choice, I recommend [Chruby][ch].
-- `cd app`
-- `gem install bundler`
-- `bundle install`
-- `bundle exec ./app.rb`
+You need Ruby version `2.5.1`. Use the version manager of your choice, I recommend [Chruby][ch].
+```
+cd app
+gem install bundler
+bundle install
+bundle exec ./app.rb
+```
 
-[ch]: https://github.com/postmodern/chruby)
+[ch]: https://github.com/postmodern/chruby
 
 #### Locally in Docker
 
