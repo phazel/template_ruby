@@ -1,6 +1,6 @@
 require_relative "../app"
 
-describe App do
+RSpec.describe App do
   subject { described_class.new }
 
   it 'says hello' do
