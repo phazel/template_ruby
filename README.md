@@ -2,8 +2,8 @@
 
 ## How to use this template
 
-- Replace `[APPNAME]` with the name of your app
-- Replace `[DOCKER_ACCOUNT]` with the docker hub account you're using
+- Find and replace `[APPNAME]` with the name of your app
+- Find and replace `[DOCKER_ACCOUNT]` with the docker hub account you're using
 - Remove this section of the README
 
 ## Run It
